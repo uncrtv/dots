@@ -1,0 +1,179 @@
+Xft.dpi:    96
+
+!! Compositor transparency for urxvt
+URxvt.depth:        32
+!URxvt.background:   [80]#000000 ! Use *background from theme
+
+!!  Native transparency
+!URxvt.transparent:  true
+!URxvt.shading:      110
+
+! scrollbar
+!URxvt.scrollBar:    false
+
+! font
+URxvt*font:        xft:Source\ Code\ Pro:size=10:antialias=true
+!URxvt*font:         xft:tewi:size=8
+!URxvt*boldFont:     xft:tewi:size=8
+
+!xterm*faceName:     lemon:size=8
+
+! Misc settings
+!URxvt*cursorBlink:  true     
+URxvt*geometry:     60*10
+
+!!TomorrowNightBright
+!#define t_background        [80]#000000
+!#define t_current_line      #2a2a2a
+!#define t_selection         #424242
+!#define t_foreground        #eaeaea
+!#define t_comment           #969896
+!#define t_red               #d54e53
+!#define t_orange            #e78c45
+!#define t_yellow            #e7c547
+!#define t_green             #b9ca4a
+!#define t_aqua              #70c0b1
+!#define t_blue              #7aa6da
+!#define t_purple            #c397d8
+!
+!
+!*.foreground:   t_foreground
+!!*.background:   [90]#1c1c1c
+!*.background:   #000000
+!*.cursorColor:  #FFFFFF
+!!*.cursorColor:  #aeafad
+!
+!! Black / Grey
+!*.color0:       #000000
+!*.color8:       #666666
+!
+!! ! Red / Bright Red
+!*.color1:       t_red
+!*.color9:       #FF3334
+!
+!! Green + Bright Green
+!*.color2:       t_green
+!*.color10:      #9ec400
+!
+!! Yellow (Orange) + Bright Yellow (Yellow)
+!*.color3:       t_orange
+!*.color11:      t_yellow
+!
+!! Blue + Bright Blue
+!*.color4:       t_blue
+!*.color12:      t_blue
+!
+!! Magenta (Purple) + Bright Magenta
+!*.color5:       t_purple
+!*.color13:      #b777e0
+!
+!! Cyan (Aqua) + Bright Cyan
+!*.color6:       t_aqua
+!*.color14:      #54ced6
+!
+!! Light Grey (Selection) + White (Current Line)
+!*.color7:       t_selection
+!*.color15:      t_current_line
+
+! Jellybeans
+*foreground: #DDEEDD
+*background: #1C1C1C
+!*background: [90]#1C1C1C ! Transparent
+
+!black
+*color0: #1C1C1C
+*color8: #4d4d4d
+!red
+*color1: #D81860
+*color9: #F00060
+!green
+*color2: #B7CE42
+*color10: #BDE077
+!yellow
+*color3: #FEA63C
+*color11: #FFE863
+!blue
+*color4: #66AABB
+*color12: #AACCBB
+!magenta
+*color5: #B7416E
+*color13: #BB4466
+!cyan
+*color6: #5E7175
+*color14: #A3BABF
+!white
+*color7: #DDEEDD
+*color15: #6C887A
+
+
+!z1lt0id
+!*foreground:                               #ebebeb
+!*background:                               [95]#151515
+!
+!!black
+!*color0:                                   #303030
+!*color8:                                   #474747
+!!red
+!*color1:                                   #BF1E2D
+!*color9:                                   #E7212A
+!!green
+!*color2:                                   #D7D7D7
+!*color10:                                  #E6E6E6
+!!yellow
+!*color3:                                   #666666
+!*color11:                                  #808080
+!!blue
+!*color4:                                   #FFFFFF
+!*color12:                                  #ebebeb
+!!magenta
+!*color5:                                   #C3143B
+!*color13:                                  #E82752
+!!cyan
+!*color6:                                   #D4D4D4
+!*color14:                                  #EDEDED
+!!white
+!*color7:                                   #ebebeb
+!*color15:                                  #cccccc
+
+!! black
+!URxvt*color15  : #646464
+!URxvt*color7  : #909090
+! 
+!! red
+!!URxvt*color1  : #c29198
+!!URxvt*color9  : #a0616a
+!URxvt*color1: #d8a5aa
+!URxvt*color9: #a27b7f
+! 
+!! yellow/orange
+!!URxvt*color3: #acacac
+!!URxvt*color11: #858585
+!URxvt*color3: #bfa5d8
+!URxvt*color11: #9884ac
+! 
+!! green
+!URxvt*color2 : #abd8a5
+!URxvt*color10  : #80a27b
+! 
+!! blue
+!URxvt*color4: #a5abd8
+!URxvt*color12: #7b80a2
+! 
+!! magenta
+!URxvt*color5 : #d8a5d2
+!URxvt*color13  : #a27b9d
+! 
+!! cyan
+!URxvt*color6 : #a5d2d8
+!URxvt*color14  : #7b9da2
+! 
+!! white
+!URxvt*color0 : #b5b5b5
+!URxvt*color8  : #727272
+! 
+Rxvt*scrollBar: false
+!URxvt*background: #f9f9f9
+!URxvt*foreground: #909090
+!URxvt*cursorUnderline: true
+!URxvt*cursorColor: #d8a5aa
+
